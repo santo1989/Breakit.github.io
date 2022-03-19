@@ -160,9 +160,16 @@ nav ul li {
   text-align: center;
 }
 
-.services p {
-  line-height: var(--line-height);
-  padding: 0.4rem;
+.services p before {
+    line-height: var(--line-height);
+    padding: 0.4rem;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 5px;
+    display: inline-block;
+    background-color: #29cf00;
+    vertical-align: middle;
 }
 /* services ends */
 
